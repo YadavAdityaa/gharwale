@@ -69,9 +69,9 @@ function Footer() {
       {/* Grid container Copyright */}
       <div
         className="text-center text-dark p-3 bottom">
-        © 2020 Copyright:
+        © 2023 Copyright:
         <a className="text-dark" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+          www.gharvale.com
         </a>
       </div>
       {/* Copyright */}
