@@ -1,0 +1,248 @@
+
+.main-body{
+  margin-top: 3rem;
+}
+.card{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 5px 2px 6px rgba(0, 0, 0, 0.23);
+}
+.card-author{
+  justify-content: center;
+}
+
+.footer-main{
+  background-color: #D5F8E5;
+}
+.bottom{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.card-img-top{
+  background-color: black;
+  height: 100%;
+}
+.section-img-top{
+  height: 100%;
+  width: 85%;
+}
+.project-section{
+  color:rgb(221 202 202);
+}
+.pic{
+  display: -webkit-inline-box;
+}
+
+.btn{
+  font-size: 10px;
+}
+.rounder-circle{
+  background-color: #0082ca; width: 40px; height: 40px;
+}
+
+.dev-name{
+  font-size: 13px;
+  margin-left: 23px;
+}
+
+.pricing{
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+/* nav li{
+  padding-inline-start: 2px;
+} */
+.navbar{
+  padding: 8px 20px;
+  background: #336372 !important;
+}
+.navbar-collapse{
+  justify-content: center;
+}
+.nav-link{
+  color: #ffffff;
+}
+.dropdown-menu{
+  background: #336372 !important;
+}
+/* .filter-element{
+  width: 33%;
+  margin: 3px;
+} */
+#category {
+  word-wrap: normal;
+  width: 50%;
+}
+/* .filter-element{
+  display: flex;
+  align-self: center;
+}
+.bhks{
+  display: flex;
+} */
+select {
+  padding: 4px 20px;
+  margin: 3px;
+  border: 1px solid midnightblue;
+  border-radius: 4px;
+  background-color: #fff; /* Adjust background color as needed */
+  color: #333; /* Adjust text color as needed */
+  cursor: pointer;
+}
+
+/* Example styles for options within the dropdown */
+select option {
+  background-color: #fff; /* Adjust background color as needed */
+  color: #333; /* Adjust text color as needed */
+  
+}
+span.react-dropdown-select-option.css-9ma7ck-OptionComponent.e1l4eby50 {
+  content-visibility: hidden;
+}
+
+.breadcrumb{
+  background-color: #ffffff;
+}
+.bread{
+  border-radius: 50px 0 0 50px;
+   padding-left: 15px;
+}
+.bread1{
+  border-radius: 0 50px 50px 0; padding-right: 15px;
+}
+.crumb{
+  text-align: right;
+}
+.filt1{
+  justify-content: right;
+}
+
+.filter-box {
+  
+  /*position: absolute;
+   top: 0;
+  bottom: 37%;
+   -webkit-transform: translate(-50%, 60%);
+  -moz-transform: translate(-50%, 60%);
+  -ms-transform: translate(-50%, 60%);
+  transform: translate(-50%, 60%);
+  max-width: 920px!important;
+  left: 50%; */
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 0px;
+  border-radius: 15px;
+  border: 3px solid #D3E0ED;
+  box-shadow: rgba(70, 80, 91, 0.2) 0px 7px 20px 0px;
+  z-index: 1;
+  width: auto;
+}
+.card-container {
+  position: relative;
+  overflow: hidden;
+}
+.use-sticky-container {
+  position: relative;
+}
+
+.use-sticky {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 10px; /* Adjust the top value according to your design */
+}
+.sec{
+  height: 470px;
+  width: 355px;
+}
+.main-section{
+  background-color: #336372;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  /* Your existing card styles */
+  margin-right: 15px;
+  flex: 0 0 auto; /* Adjust margin as needed */
+}
+
+.all-cards {
+  margin: 0 5px;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+/* Add media query for mobile view */
+@media (max-width: 768px) {
+  .all-cards {
+    flex-direction: row; /* Display cards horizontally */
+    width: 300%; /* Ensure all cards are visible */
+  }
+}
+
+/* Add navigation arrows for desktop view */
+.arrow {
+  position: absolute;
+  top: 15px;
+  transform: translateY(-50%);
+  font-size: 50px;
+  width: 20px;
+  cursor: pointer;
+  color: rgb(1, 1, 10);
+  /* background-color: rgb(255, 255, 255); */
+  /* border: 1px solid; */
+  padding: 0 18px;
+  /* border-radius: 50%; */
+  z-index: 1;
+}
+
+.arrow-left {
+  left: 0px;
+}
+
+.arrow-right {
+  right: 14px;
+}
+
+
+
+.card-container {
+  height: 100%; /* You can adjust this value based on your design preferences */
+}
+.card {
+  height: 100%;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%; /* Adjust this if you want the image to cover the entire card */
+  object-fit: cover; /* This ensures the image maintains its aspect ratio */
+}
+
+.card h3,
+.card span,
+.card ul,
+.card li {
+  margin: 0; /* Reset margin to ensure consistent spacing */
+}
